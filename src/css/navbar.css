@@ -1,3 +1,16 @@
-.padding{
-    padding: 0px 150px;
+/* .padding {
+    padding: 40px 150px;
+} */
+
+
+@media (max-width : 300px) {
+    .padding {
+        padding: 0px 0px;
+    }
+}
+
+@media (min-width : 900px) {
+    .padding {
+        padding: 0px 150px;
+    }
 }

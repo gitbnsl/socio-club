@@ -23,7 +23,7 @@ const Features = () => {
             <div className="container p-5" id='Feature'>
                 <div className="row">
                     <h1 className='text-center text-light mb-5'>Our Features</h1>
-                    <div className="col-md-3">
+                    <div className="col-md-3 my-2">
                         <div className="card hg hgmx-3 bg-light text-dark text-center">
                             <div className="card-body text-center">
                                 <img src={game} className="" width={130} alt="..." />
@@ -32,7 +32,7 @@ const Features = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3 my-2">
                         <div className="card hg hgmx-3 bg-light text-dark text-center">
                             <div className="card-body text-center">
                                 <img src={podcast} className="" width={130} alt="..." />
@@ -41,7 +41,7 @@ const Features = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3 my-2">
                         <div className="card hg hgmx-3 hg bg-light text-dark text-center">
                             <div className="card-body text-center">
                                 <img src={book} className="" width={130} alt="..." />
@@ -50,7 +50,7 @@ const Features = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3 my-2">
                         <div className="card hg hgmx-3  bg-light text-dark text-center">
                             <div className="card-body text-center">
                                 <img src={hack} className="" width={130} alt="..." />
@@ -63,9 +63,9 @@ const Features = () => {
 
 
 
-                <div className="row my-5">
+                <div className="row my-2">
 
-                    <div className="col-md-3">
+                    <div className="col-md-3 my-2">
                         <div className="card hg hgmx-3 bg-light text-dark text-center">
                             <div className="card-body text-center">
                                 <img src={radio} className="" width={130} alt="..." />
@@ -74,7 +74,7 @@ const Features = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3 my-2">
                         <div className="card hg hgmx-3 bg-light text-dark text-center">
                             <div className="card-body text-center">
                                 <img src={crypto} className="" width={130} alt="..." />
@@ -83,7 +83,7 @@ const Features = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3 my-2">
                         <div className="card hg hgmx-3 hg bg-light text-dark text-center">
                             <div className="card-body text-center">
                                 <img src={news} className="" width={130} alt="..." />
@@ -92,7 +92,7 @@ const Features = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3 my-2">
                         <div className="card hg hgmx-3  bg-light text-dark text-center">
                             <div className="card-body text-center">
                                 <img src={music} className="" width={130} alt="..." />
@@ -104,9 +104,9 @@ const Features = () => {
                 </div>
 
 
-                <div className="row my-5">
+                <div className="row my-2">
 
-                    <div className="col-md-3">
+                    <div className="col-md-3 my-2">
                         <div className="card hg hgmx-3 bg-light text-dark text-center">
                             <div className="card-body text-center">
                                 <img src={shop} className="" width={130} alt="..." />
@@ -115,7 +115,7 @@ const Features = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3 my-2">
                         <div className="card hg hgmx-3 bg-light text-dark text-center">
                             <div className="card-body text-center">
                                 <img src={chatbot} className="" width={130} alt="..." />
@@ -124,7 +124,7 @@ const Features = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3 my-2">
                         <div className="card hg hgmx-3 hg bg-light text-dark text-center">
                             <div className="card-body text-center">
                                 <img src={reading} className="" width={130} alt="..." />
@@ -134,7 +134,6 @@ const Features = () => {
                         </div>
                     </div>
                     <div className="col-md-3">
-
                     </div>
                 </div>
 

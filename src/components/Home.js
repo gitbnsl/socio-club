@@ -22,8 +22,8 @@ const Home = () => {
               Sink Yourself Into <br /> Vibes
             </h2>
           </div>
-          <div className="col-md-6">
-            <img src={home} alt="" width={650} />
+          <div className="col-md-6" id='img'>
+            <img src={home} className='img-fluid' alt="" width={650} />
           </div>
         </div>
 
@@ -33,24 +33,28 @@ const Home = () => {
             <img src={winner} className='rounded-pill' alt="" width={250} />
           </div>
           <div className="col-md-6 text-center mt-5 pt-4">
-            <h1 className='text-start'>Participate In Contests For Free And Win Rewards</h1>
+            <h1 className='txt3'>Participate In Contests For Free And Win Rewards</h1>
           </div>
         </div>
 
 
-        <div className="row">
-          <div className="col-md-12 bg-light rounded-pill">
+        <div className="row bg-light rounded-pill" id='playstore'>
+          {/* <div className="col-md-6"> */}
+            {/* <h1 className='text-dark px-5 mt-4 pt-3 fw-bold txt2'>GET IT ON GOOGLE PLAYSTORE</h1> */}
+          {/* </div> */}
+          <div className="col-md-12 text-end">
             <div className="d-flex justify-content-between px-5 py-2">
-              <h1 className='text-dark mt-5 pt-3 fw-bold txt2'>GET IT ON GOOGLE PLAYSTORE</h1>
+            <h1 className='text-dark px-5 mt-5 pt-3 fw-bold txt2'>GET IT ON GOOGLE PLAYSTORE</h1>
+
               <img src={playstore} alt="" width={180} />
             </div>
           </div>
         </div>
       </div>
 
-      <Features/>
+      <Features />
 
-      <Contact/>
+      <Contact />
 
 
 

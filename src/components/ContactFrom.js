@@ -33,16 +33,13 @@ const ContactFrom = () => {
 
 
 
-
-
-
     return (
         <>
-            <div className="container">
+            <div className="container my-5">
                 <div className="row">
                     <div className="col-md-3"></div>
                     <div className="col-md-6">
-                        <div className="card p-5">
+                        <div className="card p-2">
                             <div className="card-body">
                                 <h1 className='my-3 text-center'>CONTACT US</h1>
                                 <form className='my-2' ref={form} onSubmit={sendEmail}>

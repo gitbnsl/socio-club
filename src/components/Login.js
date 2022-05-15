@@ -5,7 +5,7 @@ import '../css/login.css'
 const Login = () => {
     return (
         <>
-            <div className="container">
+            <div className="container my-5">
                 <div className="row m-0 p-0">
                     <div className="col-md-4"></div>
                     <div className="col-md-4">

@@ -5,7 +5,7 @@ import '../css/register.css'
 const Register = () => {
     return (
         <>
-            <div className="container">
+            <div className="container my-4">
                 <div className="row">
                     <div className="col-md-4"></div>
                     <div className="col-md-4 my-5">

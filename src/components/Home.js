@@ -39,9 +39,7 @@ const Home = () => {
 
 
         <div className="row bg-light rounded-pill" id='playstore'>
-          {/* <div className="col-md-6"> */}
-            {/* <h1 className='text-dark px-5 mt-4 pt-3 fw-bold txt2'>GET IT ON GOOGLE PLAYSTORE</h1> */}
-          {/* </div> */}
+         
           <div className="col-md-12 text-end">
             <div className="d-flex justify-content-between px-5 py-2">
             <h1 className='text-dark px-5 mt-5 pt-3 fw-bold txt2'>GET IT ON GOOGLE PLAYSTORE</h1>

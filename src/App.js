@@ -7,6 +7,7 @@ import Home from './components/Home';
 import Register from './components/Register';
 import { Routes, Route } from "react-router-dom";
 import ContactFrom from './components/ContactFrom';
+import Error from './components/Error';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route exact path="/login" element={<Login />} />
         <Route exact path="/register" element={<Register />} />
         <Route exact path="/contact" element={<ContactFrom />} />
+        <Route exact path="/*" element={<Error />} />
       </Routes>
 
       <Footer />

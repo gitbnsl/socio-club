@@ -5,7 +5,7 @@ import '../css/register.css'
 const Register = () => {
     return (
         <>
-            <div className="container my-4">
+            <div className="container my-3">
                 <div className="row">
                     <div className="col-md-4"></div>
                     <div className="col-md-4 my-5">
@@ -49,20 +49,13 @@ const Register = () => {
                                         <button className="btn px-4 btn-register fw-bold rounded shadow">Register</button>
                                         <a href='/login' className="btn px-4 btn-register1 fw-bold rounded shadow">Login</a>
                                     </div>
-
-
-
                                 </form>
                             </div>
-
                         </div>
                     </div>
-
                     <div className="col-md-4"></div>
                 </div>
             </div>
-
-
         </>
     )
 }

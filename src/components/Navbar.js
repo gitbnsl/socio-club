@@ -8,15 +8,15 @@ const Navbar = () => {
         <>
             <nav className="navbar navbar-dark bg-black navbar-expand-lg padding">
                 <div className="container-fluid">
-                    {/* <a class="navbar-brand text-light" href="#">Socio-Club</a> */}
 
                     <a className="navbar-brand" href="#">
-                        <img src={logo1} alt="" class="" width={150} />
+                        <img src={logo1} className='' alt="" width={150} />
                     </a>
+                    
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon text-danger"></span>
                     </button>
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div className="collapse navbar-collapse ui" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
                                 <a className="nav-link h4" aria-current="page" href="/">Home</a>
@@ -35,6 +35,10 @@ const Navbar = () => {
                             </li>
 
                         </ul>
+                        <div className="d-flex justify-content-end">
+                            <form action="" className=''></form>
+                            <input type="text" className='form-control fw-bold bg-dark border-0 p-2' placeholder='Search The items' />
+                        </div>
                        
                     </div>
                 </div>

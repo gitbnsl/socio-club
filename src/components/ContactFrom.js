@@ -18,8 +18,8 @@ const ContactFrom = () => {
         setData({ ...data, [name]: value })
     }
 
-    const sendEmail = (e) => {
-        e.preventDefault();
+    const sendEmail = () => {
+        // e.preventDefault();
         console.log('click active')
 
         email.sendForm('service_x3zc6nk', 'template_xh65ho7', form.current, 'tXYQhNSTkw49_VQSu')
@@ -28,6 +28,7 @@ const ContactFrom = () => {
                 alert("Success")
             }, (error) => {
                 console.log(error.text);
+                alert("Error")
             });
     }
 
